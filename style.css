@@ -248,4 +248,52 @@ nav.topped #rightSide #kontaktButton{
     margin-left: 20px;
     margin-top: 10px;
     text-wrap: wrap;
+    list-style-type: '🗸';
+    /* list-style-type: none; */
+}
+
+
+
+/* SecondPage Price  */
+#secondPage #price {
+    width: 99.2vw;
+    padding: 0 200px;
+    margin-top: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#secondPage #price div {
+    height: 700px;
+    width: 400px;
+    background-color: #38383d;
+
+
+}
+
+#secondPage #price div img {
+    width: 400px;
+}
+
+#secondPage #price div h3{
+    font-size: 4.5em;
+    margin: 0 20px;
+    margin-top: 5px;
+}
+
+#secondPage #price div h6{
+    color: var(--orange);
+    margin: 0px 20px;
+    font-size: 2em;
+}
+
+#secondPage #price div ul {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#secondPage #price div ul li {
+    font-size: 1.5em;
 }
