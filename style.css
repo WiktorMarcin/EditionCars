@@ -24,6 +24,10 @@ body{
     min-height: 500vh;
 }
 
+i {
+    color: var(--orange);
+}
+
 
 /* navigation bar */
 nav {
@@ -333,4 +337,82 @@ nav.topped #rightSide #kontaktButton{
     color: var(--orange);
     font-weight: 900;
     margin: 0 200px;
+  }
+
+
+
+
+
+
+  /* Contact Us */
+  #contact{
+    display: flex;
+
+    list-style-position: inside;
+
+    /* padding: 30px; */
+  }
+
+  #contact #leftSide {
+    width: 40%;
+  }
+
+  #contact h3{
+    font-size: 4em;
+    font-weight: 900;
+  }
+
+  #contact #ourContact div{
+    font-size: 2em;
+
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+
+  #contact #findUs {
+    margin-top: 50px;
+
+    font-size: 2em;
+  }
+
+  #contact #leftSide #socialMedia {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+  }
+
+  #contact #leftSide #socialMedia a {
+    color: var(--orange);
+    text-decoration: none;
+  }
+
+  #contact #rightSide {
+    width: 60%;
+  }
+
+  #contact #rightSide #form {
+    display: grid;
+    /* grid-template-rows: auto; */
+  }
+
+  #contact #form #message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #contact #rightSide #name, #contact #rightSide #number, #contact #rightSide #email {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  #form button {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  #contact #rightSide h3:last-child {
+    margin-top: 30px;
   }
