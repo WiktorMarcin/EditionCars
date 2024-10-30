@@ -12,17 +12,22 @@
 </head>
 <body>
     <nav class="topped">
-        <div id="logo">
-            <img src="./photo/logo/456722286_122117586680388626_1627585134144795219_nbrak-tła.png" alt="logo" id="logoImage">
-            <img src="./photo/logo/Napis.png" alt="Edition Cars" id="logoText">
-        </div>
-        <div id="rightSide">
-            <a href="#">O samochodzie</a>
-            <a href="#">Cennik</a>
-            <a href="#">Zdjecia</a>
-            <div id="kontaktButton">
-                <p>Kontakt</p>
+        <a href="index.html">        
+            <div id="logo">
+             <img src="./photo/logo/456722286_122117586680388626_1627585134144795219_nbrak-tła.png" alt="logo" id="logoImage">
+                <img src="./photo/logo/Napis.png" alt="Edition Cars" id="logoText">
             </div>
+        </a>
+        <div id="rightSide">
+            <a class="smallButtons" href="#secondPage">O samochodzie</a>
+            <a class="smallButtons" href="#price">Cennik</a>
+            <a class="smallButtons" href="#swiper">Zdjecia</a>
+            <a href="#contact">
+                <div id="kontaktButton">
+                    <p>Kontakt</p>
+                </div>
+            </a>
+
         </div>
     </nav>
 
@@ -40,7 +45,7 @@
                 </div>
             </div>
             <div id="buttonDiv">
-                <button class="showMoreButton"><p>Zobacz Wiecej</p></button>
+                <a href="#secondPage" class="showMoreButton"><p>Zobacz Wiecej</p></a>
             </div>
         </div>
         <div class="rightSide" class="page">
@@ -52,7 +57,7 @@
         <div id="carPhoto"></div>
         <div id="carInfoTop" class="infoBox">
             <h3>VOLKSWAGEN MULTIVAN T7</h3>
-            <p>Specyfikacja</p>
+            <p id="specificationTitle">Specyfikacja</p>
             <div id="specificationTexts">
                 <div>
                     <h6>Typ</h6>
@@ -84,22 +89,64 @@
                 </div>
                 <div id="carEquipment" class="infoBox">
                     <h4>Wyposazenie</h4>
-                    <ul>
-                        <li>Bluetooth</li>
-                        <li>Gniazda USB</li>
-                        <li>Klimatyzacja Trojstrefowa</li>
-                        <li>Doswietlanie Zakretow</li>
-                        <li>Fotele w ukladzie 2-2-3</li>
-                        <li>Drugi rzad foteli obracany</li>
-                        <li>Isofix</li>
-                        <li>Bagaznik Automatyczny</li>
-                        <li>Stolik Srodkowy Przesuwany</li>
-                        <li>Kamera Cofania</li>
-                        <li>Czujniki Parkowania Przod + Tyl</li>
-                        <li>Android Audio</li>
-                        <li>SystemCar2X "High" (Ostrzezenie o ruchu drogowym)</li>
-                        <li>Dach Panoramiczny, Przyciemnienie 95%</li>
-                    </ul>
+                    <div id="carEquipmentList">
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Bluetooth</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Gniazda USB</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Klimatyzacja Trojstrefowa</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Doswietlanie Zakretow</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Fotele w ukladzie 2-2-3</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Drugi rzad foteli obracany</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Isofix</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Bagaznik Automatyczny</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Stolik Srodkowy Przesuwany</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Kamera Cofania</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Czujniki Parkowania Przod + Tyl</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Android Audio</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>SystemCar2X "High" (Ostrzezenie o ruchu drogowym)</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i>
+                            <p>Dach Panoramiczny, Przyciemnienie 95%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,7 +180,7 @@
     </div>
 
 
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper" id="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="./photo/outside/459158550_122120190458388626_7364878609390827180_n.jpg" alt="car image"></div>
           <div class="swiper-slide"><img src="./photo/outside/459633302_122120889470388626_8079370669060688636_n.jpg" alt="car image"></div>
@@ -150,11 +197,11 @@
             <div id="ourContact">
                 <div id="phone">
                     <i class="fa-solid fa-phone-volume"></i>
-                    <p>+48 509 073 310</p>
+                    <a href="tel:+48509073310">+48 509 073 310</a>
                 </div>
                 <div id="email">
                     <i class="fa-solid fa-envelope"></i>
-                    <p>AdrianMultivan@gmail.com</p>
+                    <a href="mailto:adrianmultivan@gmail.com">AdrianMultivan@gmail.com</a>
                 </div>
                 <div id="adres">
                     <i class="fa-solid fa-location-dot"></i>
@@ -189,7 +236,7 @@
 
                 <button type="submit">Wyslij</button>
             </form> -->
-            <h3>Juz w krotce</h3>
+            <h3>Juz wkrotce</h3>
         </div>    
     </div>
 

@@ -21,11 +21,15 @@ img {
 
 body{
     background: #888888;
-    min-height: 500vh;
+    /* min-height: 500vh; */
 }
 
 i {
     color: var(--orange);
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -77,10 +81,18 @@ nav.topped #rightSide {
     gap: 30px;
 }
 
-nav.topped #rightSide a, nav.topped #rightSide p {
+nav.topped #rightSide .smallButtons, nav.topped #rightSide p {
     font-size: 1.4em;
     font-weight: 900;
     text-decoration: none;
+
+    transition: 0.5s;
+}
+
+nav.topped #rightSide .smallButtons:hover {
+    font-size: 1.6em;
+
+    color: var(--orange);
 }
 
 nav.topped #rightSide #kontaktButton{
@@ -88,6 +100,15 @@ nav.topped #rightSide #kontaktButton{
     padding: 10px 45px;
     border-radius: 50px;
     font-size: 1.6em;
+    cursor: grab;
+
+
+    transition: 0.5s;
+}
+
+nav.topped #rightSide #kontaktButton:hover{
+    background-color: #8d3310;
+
 }
 
 
@@ -149,13 +170,20 @@ nav.topped #rightSide #kontaktButton{
     margin-top: 120px;
 }
 
-#firstPage .leftSide button{
+#firstPage .leftSide a{
     background: var(--orange);
+    text-decoration: none;
     font-size: 2em;
     font-weight: 600;
     padding: 20px 50px;
     border-radius: 50px;
     border: 0;
+    transition: 0.5s;
+    cursor: grab;
+}
+
+#firstPage .leftSide a:hover{
+    background-color: #8d3310;
 }
 
 #firstPage .rightSide{
@@ -212,7 +240,7 @@ nav.topped #rightSide #kontaktButton{
     font-size: 3.8em;
 }
 
-#carInfoTop p {
+#carInfoTop #specificationTitle {
     color: #585872;
     font-size: 2em;
     font-weight: 600;
@@ -249,21 +277,25 @@ nav.topped #rightSide #kontaktButton{
     color: #a2a2a2 !important;
 }
 
-#carInfoTop #carEquipment ul{
+#carInfoTop #carEquipment #carEquipmentList{
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5em;
     width: 100%;
     margin-top: 20px;
 }
-#carInfoTop #carEquipment ul li {
+
+#carInfoTop #carEquipment #carEquipmentList div{
     width: 400px;
     margin-left: 20px;
     margin-top: 10px;
     text-wrap: wrap;
-    list-style-type: '🗸';
-    /* list-style-type: none; */
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
+
 
 
 
@@ -370,6 +402,10 @@ nav.topped #rightSide #kontaktButton{
     align-items: center;
 
     margin-top: 20px;
+  }
+
+  #contact #ourContact div a:hover{
+    text-decoration: underline;
   }
 
   #contact #findUs {
