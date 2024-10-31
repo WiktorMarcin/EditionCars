@@ -21,7 +21,6 @@ img {
 
 body{
     background: #888888;
-    /* min-height: 500vh; */
 }
 
 i {
@@ -43,7 +42,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 20px 200px;
+    padding: 1.02vw 10.2vw;
 }
 
 /* navigation when page is scrolled */
@@ -51,7 +50,7 @@ nav {
 nav.scrolled {
     z-index: 100000;
     background: black;
-    padding: 5px 200px;
+    padding: 0.25vw 10.2vw;
 }
 
 /* Left side of navigation bar */
@@ -60,15 +59,15 @@ nav.topped #logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.51vw;
 }
 
 nav.topped #logo #logoImage {
-    height: 70px;
+    height: 3.7vw;
 }
 
 nav.topped #logo #logoText{
-    height: 50px;
+    height: 2.6vw;
 }
 
 
@@ -78,11 +77,11 @@ nav.topped #logo #logoText{
 nav.topped #rightSide {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 1.5vw;
 }
 
 nav.topped #rightSide .smallButtons, nav.topped #rightSide p {
-    font-size: 1.4em;
+    font-size: 1.2vw;
     font-weight: 900;
     text-decoration: none;
 
@@ -90,20 +89,25 @@ nav.topped #rightSide .smallButtons, nav.topped #rightSide p {
 }
 
 nav.topped #rightSide .smallButtons:hover {
-    font-size: 1.6em;
+    font-size: 1.4vw;
 
     color: var(--orange);
 }
 
 nav.topped #rightSide #kontaktButton{
     background-color: var(--orange);
-    padding: 10px 45px;
+    padding: 0.5vw 2.3vw;
     border-radius: 50px;
-    font-size: 1.6em;
+    font-size: 1.6vw;
     cursor: grab;
 
 
     transition: 0.5s;
+}
+
+nav.topped #rightSide #kontaktButton p{
+    font-size: 1.6vw;
+
 }
 
 nav.topped #rightSide #kontaktButton:hover{
@@ -115,14 +119,9 @@ nav.topped #rightSide #kontaktButton:hover{
 
 /* Pages */
 .page{
-    /* height: 100vh; */
-    width: 99.2vw;
-    padding: 0 200px;
+    padding: 0 10.2vw;
 
     background: radial-gradient(circle at 0% 00%, rgba(0,0,0,1), rgba(88,88,114,1), rgba(0,0,0,1));
-    /* background: rgb(0,0,0); */
-
-
 }
 
 
@@ -131,8 +130,8 @@ nav.topped #rightSide #kontaktButton:hover{
 
 #firstPage{
     display: flex;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 10.5vw;
+    padding-bottom: 5.6vw;
 }
 
 #firstPage .leftSide{
@@ -140,7 +139,7 @@ nav.topped #rightSide #kontaktButton:hover{
 }
 
 #firstPage .leftSide h2{
-    font-size: 6em;
+    font-size: 5vw;
     font-weight: 600;
     width: 200%;
 }
@@ -150,16 +149,16 @@ nav.topped #rightSide #kontaktButton:hover{
     justify-content: space-around;
     text-align: center;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 6.2vw;
 
 }
 
 #firstPage .leftSide #smallInformation div h3{
-    font-size: 5em;
+    font-size: 4.2vw;
 }
 
 #firstPage .leftSide #smallInformation div h5{
-    font-size: 2em;
+    font-size: 1.7vw;
     font-weight: 300;
 }
 
@@ -167,15 +166,15 @@ nav.topped #rightSide #kontaktButton:hover{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 6.2vw;
 }
 
 #firstPage .leftSide a{
     background: var(--orange);
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.7vw;
     font-weight: 600;
-    padding: 20px 50px;
+    padding: 1vw 2.6vw;
     border-radius: 50px;
     border: 0;
     transition: 0.5s;
@@ -191,13 +190,8 @@ nav.topped #rightSide #kontaktButton:hover{
 }
 
 #firstPage img {
-    /* width: 670px; */
-    /* height: 410px; */
-    
     width: 100%;
-
-    margin-top: 60px;
-
+    margin-top: 3.1vw;
 }
 
 
@@ -207,8 +201,6 @@ nav.topped #rightSide #kontaktButton:hover{
 
 #secondPage {
     background: radial-gradient(circle at 0% 00%, rgba(0,0,0,1), rgba(88,88,114,1), rgba(0,0,0,1));
-
-    height: 2000px;
     padding-left: 0;
 }
 
@@ -216,7 +208,8 @@ nav.topped #rightSide #kontaktButton:hover{
 #secondPage #carPhoto {
     background-image: url(./photo/outside/frontDark.png);
     background-repeat: no-repeat;
-    height: 700px;
+    background-size: cover;
+    height: 32vw;
     width: 99.2vw;
 
 }
@@ -224,44 +217,44 @@ nav.topped #rightSide #kontaktButton:hover{
 
 .infoBox{
     width: 60%;
-    padding: 20px;
+    padding: 1vw;
     border-radius: 20px;
 }
 
 #carInfoTop{
-    margin-top: -300px;
-    margin-left: 200px;
+    margin-top: -15.3vw;
+    margin-left: 10.2vw;
     background: #19191d;
-    height: 450px;
+    height: 25vw;
 
 }
 
 #carInfoTop h3 {
-    font-size: 3.8em;
+    font-size: 3vw;
 }
 
 #carInfoTop #specificationTitle {
     color: #585872;
-    font-size: 2em;
+    font-size: 1.7vw;
     font-weight: 600;
-    margin: 20px 0 30px 0;
+    margin: 1vw 0 1.5vw 0;
 }
 
 #carInfoTop #specificationTexts {
     display: grid;
-    gap: 30px;
-    column-gap: 60px;
+    gap: 1.5vw;
+    column-gap: 3vw;
     grid-template-columns: auto auto auto;
     text-wrap: nowrap;
 }
 
 #carInfoTop #specificationTexts div h6{
-    font-size: 1.2em;
+    font-size: 1vw;
 }
 
 #carInfoTop #specificationTexts div h4{
     color: var(--orange);
-    font-size: 2.2em;
+    font-size: 1.9vw;
 }
 
 #carInfoTop #carEquipment {
@@ -280,20 +273,21 @@ nav.topped #rightSide #kontaktButton:hover{
 #carInfoTop #carEquipment #carEquipmentList{
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.5em;
+    font-size: 1.3vw;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1vw;
 }
 
 #carInfoTop #carEquipment #carEquipmentList div{
-    width: 400px;
-    margin-left: 20px;
-    margin-top: 10px;
+    width: 20vw;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
     text-wrap: wrap;
 
     display: flex;
-    gap: 10px;
+    gap: 0.5vw;
     align-items: center;
+    
 }
 
 
@@ -302,8 +296,9 @@ nav.topped #rightSide #kontaktButton:hover{
 /* SecondPage Price  */
 #secondPage #price {
     width: 99.2vw;
-    padding: 0 200px;
-    margin-top: 300px;
+    padding: 0 10.2vw;
+    margin-top: 15.3vw;
+    padding-bottom: 5.1vw;
 
     display: flex;
     flex-direction: row;
@@ -311,36 +306,36 @@ nav.topped #rightSide #kontaktButton:hover{
 }
 
 #secondPage #price div {
-    height: 700px;
-    width: 400px;
+    height: 46vw;
+    width: 20.4vw;
     background-color: #38383d;
 
 
 }
 
 #secondPage #price div img {
-    width: 400px;
+    width: 20.4vw;
 }
 
 #secondPage #price div h3{
-    font-size: 4.5em;
-    margin: 0 20px;
-    margin-top: 5px;
+    font-size: 3.8vw;
+    margin: 0 1vw;
+    margin-top: 0.25vw;
 }
 
 #secondPage #price div h6{
     color: var(--orange);
-    margin: 0px 20px;
-    font-size: 2em;
+    margin: 0 1vw;
+    font-size: 1.6vw;
 }
 
 #secondPage #price div ul {
-    margin: 20px;
-    margin-top: 40px;
+    margin: 1vw;
+    margin-top: 2vw;
 }
 
 #secondPage #price div ul li {
-    font-size: 1.5em;
+    font-size: 1.3vw;
 }
 
 /* Photo Slider  */
@@ -351,25 +346,28 @@ nav.topped #rightSide #kontaktButton:hover{
     overflow: hidden;
 
     background-color: #38383d;
-
-    padding-top: 1000px;
   }
 
   .swiper-slide {    
-    margin: 50px 0;
+    margin: 2.5vw 0;
   }
 
   .swiper-slide img {
     margin: auto;
     display: block;
-    max-height: 500px;
+    height: 25.5vw;
   }
 
   .swiper .swiper-button-next, .swiper .swiper-button-prev {
     color: var(--orange);
     font-weight: 900;
-    margin: 0 200px;
+    margin: 0 10.2vw;
   }
+
+  .swiper .swiper-button-next::after , .swiper .swiper-button-prev::after {
+    font-size: 4vw;
+  }
+
 
 
 
@@ -381,8 +379,6 @@ nav.topped #rightSide #kontaktButton:hover{
     display: flex;
 
     list-style-position: inside;
-
-    /* padding: 30px; */
   }
 
   #contact #leftSide {
@@ -390,18 +386,16 @@ nav.topped #rightSide #kontaktButton:hover{
   }
 
   #contact h3{
-    font-size: 4em;
+    font-size: 3.5vw;
     font-weight: 900;
   }
 
   #contact #ourContact div{
-    font-size: 2em;
-
+    font-size: 1.4vw;
     display: flex;
     gap: 1vw;
     align-items: center;
-
-    margin-top: 20px;
+    margin-top: 1vw;
   }
 
   #contact #ourContact div a:hover{
@@ -409,15 +403,14 @@ nav.topped #rightSide #kontaktButton:hover{
   }
 
   #contact #findUs {
-    margin-top: 50px;
-
-    font-size: 2em;
+    margin-top: 2.5vw;
+    font-size: 1.8vw;
   }
 
   #contact #leftSide #socialMedia {
     display: flex;
-    gap: 15px;
-    margin: 20px 0;
+    gap: 0.75vw;
+    margin: 1vw 0;
   }
 
   #contact #leftSide #socialMedia a {
@@ -431,7 +424,6 @@ nav.topped #rightSide #kontaktButton:hover{
 
   #contact #rightSide #form {
     display: grid;
-    /* grid-template-rows: auto; */
   }
 
   #contact #form #message {
@@ -450,5 +442,5 @@ nav.topped #rightSide #kontaktButton:hover{
   }
 
   #contact #rightSide h3:last-child {
-    margin-top: 30px;
+    margin-top: 1.5vw;
   }
