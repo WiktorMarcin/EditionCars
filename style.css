@@ -560,7 +560,6 @@ nav.topped #rightSide #kontaktButton:hover{
 
     #firstPage .leftSide #buttonDiv a{
         font-size: 3vw;
-
     }
 
     
@@ -720,3 +719,49 @@ nav.topped #rightSide #kontaktButton:hover{
       }
 
   }
+
+
+@media screen  and (min-width: 0px) and (max-width: 700px){
+
+
+
+
+    nav.topped #logo #logoImage{
+        height: 13vw;
+    }
+
+    nav.topped #logo #logoText{
+        height: 8vw;
+    }
+
+
+
+    nav.topped #rightSide #kontaktButton p{
+        font-size: 6vw;
+    }
+
+
+
+
+    /* First Page */
+    #firstPage .leftSide h2{
+        font-size: 10vw;
+    }
+
+
+    #firstPage .leftSide #smallInformation div h3{
+        font-size: 12vw;
+    }
+
+    #firstPage .leftSide #smallInformation div h5{
+        font-size: 5vw;
+    }
+
+
+
+
+    #firstPage .leftSide #buttonDiv a{
+        font-size: 6vw;
+        padding: 3vw 6vw;
+    }
+}
