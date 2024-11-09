@@ -144,6 +144,10 @@ nav.topped #rightSide #kontaktButton:hover{
     width: 200%;
 }
 
+#firstPage .leftSide img{
+    display: none;
+}
+
 #firstPage .leftSide #smallInformation {
     display: flex;
     justify-content: space-around;
@@ -443,4 +447,189 @@ nav.topped #rightSide #kontaktButton:hover{
 
   #contact #rightSide h3:last-child {
     margin-top: 1.5vw;
+  }
+
+
+
+
+
+
+  @media screen and (min-width: 700px) and (max-width: 1000px) {
+
+    nav.topped {
+        padding: 1.02vw 2vw;
+    }
+
+
+    nav.topped #logo #logoImage {
+        height: 7.7vw;
+    }
+    
+    nav.topped #logo #logoText{
+        height: 6.6vw;
+    }
+
+
+
+    /* Right Side Nav */
+    nav.topped #rightSide .smallButtons {
+        display: none;
+    }    
+
+    nav.topped #rightSide #kontaktButton{
+        padding: 1vw 4vw;
+    }
+
+    nav.topped #rightSide #kontaktButton p{
+        font-size: 4vw;
+    }
+
+
+    /* pages */
+    .page{
+        padding: 0 2vw;
+    }
+
+    /* First Page */
+    #firstPage{
+        height: 100vh;
+
+        overflow: hidden;
+    }
+
+    #firstPage .leftSide{
+        width: 100%;
+
+        height: 90vh;
+
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: space-around;
+    }
+
+    #firstPage .leftSide h2{
+        font-size: 7vw;
+
+        width: 100%;
+        margin-left: 2vw;
+
+    }
+
+    #firstPage .leftSide .car{
+        width: 150%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #firstPage .leftSide img {
+        display: block;
+
+        width: 50%;
+
+        margin: 0;
+
+        margin-top: -60px;
+        
+    }
+
+    #firstPage .leftSide #smallInformation{
+        margin: 0;
+    }
+
+    #firstPage .leftSide #smallInformation div h3{
+        font-size: 6vw;
+    }
+
+    #firstPage .leftSide #smallInformation div h5{
+        font-size: 2.5vw;
+    }
+
+
+
+
+    #firstPage .leftSide #buttonDiv{
+        margin: 0;
+        padding: 0;
+    }
+
+    #firstPage .leftSide #buttonDiv a{
+        font-size: 3vw;
+
+    }
+
+    
+
+
+
+    #firstPage .rightSide{
+        display: none;
+    }
+
+
+
+
+
+
+    #secondPage #carPhoto{
+        height: 40vw;
+        width: 100vw;
+    }
+
+    #secondPage #carInfoTop{
+        margin-left: 4vw;
+        margin-top: -30vw;
+
+        width: 72vw;
+        height: 30vw;
+    }
+
+    #secondPage #carInfoTop h3{
+        font-size: 4vw;
+    }
+
+    #secondPage #carInfoTop #specificationTitle{
+        font-size: 2.5vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts .info{
+        width: 20vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts .info h6{
+        font-size: 1.5vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts .info h4{
+        font-size: 2.5vw;
+    }
+
+
+    #secondPage #carInfoTop #carEquipment{
+        width: 69vw;
+
+        grid-column-start: 2; 
+        grid-column-end: 4;
+        grid-row: 3;
+        
+    }
+
+    #secondPage #carInfoTop #carEquipment h4{
+        font-size: 4vw;
+        margin-left: 0.8vw;
+    }
+
+    #carInfoTop #carEquipment #carEquipmentList div{
+        font-size: 2.2vw;
+        width: 32.5vw;
+    }
+
+
+
+    #secondPage #price{
+        margin-top: 300px;
+    }
+        
   }
