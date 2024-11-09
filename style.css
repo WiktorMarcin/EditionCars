@@ -875,4 +875,31 @@ nav.topped #rightSide #kontaktButton:hover{
     .swiper-button-next::after, .swiper-button-prev::after{
         font-size: 7vw !important;
     }
+
+
+
+
+    /* contact */
+
+    #contact #leftSide h3{
+        font-size: 10vw;
+    }
+
+    #contact #leftSide #ourContact div{
+        font-size: 4vw;
+    }
+
+    #contact #leftSide #findUs{
+        font-size: 6vw;
+    }
+
+
+
+
+
+
+
+    #contact #rightSide{
+        display: none;
+    }
 }
