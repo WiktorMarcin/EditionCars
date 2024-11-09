@@ -457,7 +457,7 @@ nav.topped #rightSide #kontaktButton:hover{
 
 
 
-  @media screen and (min-width: 700px) and (max-width: 1000px) {
+  @media screen /*and (min-width: 700px)*/ and (max-width: 1000px) {
 
     nav.topped {
         padding: 1.02vw 2vw;
@@ -534,7 +534,7 @@ nav.topped #rightSide #kontaktButton:hover{
 
         margin: 0;
 
-        margin-top: -60px;
+        margin-top: -10vw;
         
     }
 
@@ -632,7 +632,7 @@ nav.topped #rightSide #kontaktButton:hover{
 
 
     #secondPage #price{
-        margin-top: 300px;
+        margin-top: 40vw;
     }
 
 
