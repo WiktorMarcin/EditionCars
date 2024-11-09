@@ -825,10 +825,10 @@ nav.topped #rightSide #kontaktButton:hover{
 
 
     #secondPage #price{
-        margin-top: 110vw;
+        margin-top: 105vw;
         flex-direction: column;
 
-        height: 450vw;
+        height: 430vw;
 
         justify-content: space-between;
         align-items: center;
