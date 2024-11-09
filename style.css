@@ -689,4 +689,34 @@ nav.topped #rightSide #kontaktButton:hover{
         margin: 0 3vw;
       }
 
+
+
+
+
+      /* contact */
+
+      #contact{
+
+      }
+
+      #contact #leftSide {
+        width: 70%;
+      }
+
+      #contact h3 {
+        font-size: 7vw;
+      }
+
+      #contact #ourContact div {
+        font-size: 3vw;
+      }
+
+      #contact #findUs {
+        font-size: 4vw;
+      }
+
+      #contact #rightSide h3 {
+        font-size: 4vw;
+      }
+
   }
