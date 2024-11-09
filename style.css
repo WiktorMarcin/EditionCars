@@ -577,7 +577,7 @@ nav.topped #rightSide #kontaktButton:hover{
 
     #secondPage #carPhoto{
         height: 40vw;
-        width: 100vw;
+        width: 99.2vw;
     }
 
     #secondPage #carInfoTop{
@@ -694,10 +694,6 @@ nav.topped #rightSide #kontaktButton:hover{
 
       /* contact */
 
-      #contact{
-
-      }
-
       #contact #leftSide {
         width: 70%;
       }
@@ -722,9 +718,6 @@ nav.topped #rightSide #kontaktButton:hover{
 
 
 @media screen  and (min-width: 0px) and (max-width: 700px){
-
-
-
 
     nav.topped #logo #logoImage{
         height: 13vw;
@@ -763,5 +756,104 @@ nav.topped #rightSide #kontaktButton:hover{
     #firstPage .leftSide #buttonDiv a{
         font-size: 6vw;
         padding: 3vw 6vw;
+    }
+
+
+
+
+
+    /* second page */
+
+    #secondPage #carPhoto {
+        width: 100vw;
+    }
+
+    #secondPage #carInfoTop {
+        width: 92vw;
+        height: auto;
+        padding: 3vw;
+        height: 74vw;
+
+    }
+
+    #secondPage #carInfoTop h3{
+        font-size: 6vw;
+    }
+
+    #secondPage #carInfoTop #specificationTitle{
+        font-size: 5vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts {
+        grid-template-columns: auto auto;
+    }
+
+    #secondPage #carInfoTop #specificationTexts .gearbox{
+        text-wrap: wrap;
+    }
+
+    #secondPage #carInfoTop #specificationTexts .info h6{
+        font-size: 4vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts .info h4{
+        font-size: 5vw;
+    }
+
+
+    #secondPage #carInfoTop #specificationTexts #carEquipment{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 5;
+
+        width: 92vw;
+        padding: 3vw;
+        margin-left: -3vw;
+        margin-top: 8vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts #carEquipment h4{
+        font-size: 5vw;
+    }
+
+    #secondPage #carInfoTop #specificationTexts #carEquipment #carEquipmentList div{
+        font-size: 4vw;
+        width: 100%;
+    }
+
+
+
+
+    #secondPage #price{
+        margin-top: 110vw;
+        flex-direction: column;
+
+        height: 450vw;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #secondPage #price div{
+        width: 92vw;
+        height: 140vw;
+        border-radius: 20px;
+    }
+
+    #secondPage #price div img {
+        width: 92vw;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #secondPage #price div h3 {
+        font-size: 14vw;
+    }
+
+    #secondPage #price div h6 {
+        font-size: 8vw;
+    }
+
+    #secondPage #price div ul li{
+        font-size: 4vw;
     }
 }
