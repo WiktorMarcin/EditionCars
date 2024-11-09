@@ -356,16 +356,19 @@ nav.topped #rightSide #kontaktButton:hover{
     margin: 2.5vw 0;
   }
 
-  .swiper-slide img {
+  .swiper-slide div {
+    width: 80vw;
+    height: 45vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin: auto;
-    display: block;
-    height: 25.5vw;
   }
 
   .swiper .swiper-button-next, .swiper .swiper-button-prev {
     color: var(--orange);
     font-weight: 900;
-    margin: 0 10.2vw;
+    margin: 0 3vw;
   }
 
   .swiper .swiper-button-next::after , .swiper .swiper-button-prev::after {
@@ -631,5 +634,59 @@ nav.topped #rightSide #kontaktButton:hover{
     #secondPage #price{
         margin-top: 300px;
     }
-        
+
+
+
+
+
+
+
+    /* SecondPage Price */
+
+    #secondPage #price {
+        padding: 0 2vw;
+    }
+
+    #secondPage #price div {
+        width: 27vw;
+    }
+
+    #secondPage #price div img {
+        width: 27vw;
+    }
+
+    #secondPage #price div h3 {
+        font-size: 5vw;
+    }
+
+    #secondPage #price div h6 {
+        font-size: 2.6vw;
+    }
+
+    #secondPage #price div ul li {
+        font-size: 2vw;
+        list-style: inside;
+    }
+
+    
+
+
+
+    #secondPage {
+        padding-bottom: 10vw;
+    }
+
+
+
+    .swiper {
+        height: 50vw;
+
+    }
+
+
+
+    .swiper .swiper-button-next, .swiper .swiper-button-prev {
+        margin: 0 3vw;
+      }
+
   }
